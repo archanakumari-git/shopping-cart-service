@@ -11,9 +11,3 @@
     ```
     sbt -Dconfig.resource=local2.conf run
     ```
-
-3. Check for service readiness
-
-    ```
-    curl http://localhost:9101/ready
-    ```
